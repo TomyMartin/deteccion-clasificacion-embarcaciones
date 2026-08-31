@@ -70,10 +70,11 @@ K-Nearest Neighbors achieved the second-best performance:
 ## Tech Stack
 
 - Python
-- Scikit-learn
+- Pandas
 - NumPy
-- Acoustic Signal Processing
+- Scikit-learn
 - Machine Learning
+- Acoustic Signal Processing
 - Passive Acoustic Monitoring
 - Audio Feature Extraction
 
