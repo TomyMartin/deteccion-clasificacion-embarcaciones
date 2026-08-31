@@ -1,5 +1,68 @@
-# Detección y Clasificación de Embarcaciones
+# Vessel Detection and Classification using Passive Acoustic Monitoring
 
-Este repositorio contiene los códigos para la detección y clasificación automática de embarcaciones, basados en características acústicas extraídas de grabaciones de Monitoreo Acústico Pasivo (PAM). Los algoritmos de machine learning utilizados incluyen SVM, KNN, RF y DT.
+Machine Learning project developed as part of my Engineering thesis.
 
-Esta implementación forma parte de mi tesis de grado "Detección y Clasificación Automática de Embarcaciones por Parámetros Acústicos", donde se presenta un pipeline funcional y una comparación del rendimiento de estos algoritmos. El objetivo es contribuir al desarrollo de sistemas inteligentes para la detección de señales acústicas en extensas grabaciones producto de PAM en entornos marinos.
+The objective of this project is to detect and classify vessels using
+acoustic features extracted from Passive Acoustic Monitoring (PAM)
+recordings.
+
+## Project Overview
+
+Large volumes of underwater acoustic recordings are generated through
+Passive Acoustic Monitoring systems.
+
+This project implements a machine learning pipeline to identify vessel
+activity from acoustic characteristics and compare different
+classification algorithms.
+
+## Machine Learning Models
+
+- Support Vector Machine (SVM)
+- K-Nearest Neighbors (KNN)
+- Random Forest
+- Decision Tree
+
+## Tech Stack
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Machine Learning
+- Signal / Acoustic Data Processing
+
+## Pipeline
+
+PAM recordings
+    ↓
+Acoustic feature extraction
+    ↓
+Dataset preparation
+    ↓
+Feature preprocessing
+    ↓
+Machine Learning models
+    ↓
+Model evaluation
+    ↓
+Vessel classification
+
+## Repository Structure
+
+src/
+    Machine learning and processing code
+
+docs/
+    Project documentation
+
+README.md
+    Project overview
+
+## Academic Context
+
+This project was developed as part of my Engineering thesis:
+
+"Detección y Clasificación Automática de Embarcaciones por Parámetros Acústicos"
+
+The work explores the application of machine learning techniques to
+automatically process large volumes of underwater acoustic recordings.
